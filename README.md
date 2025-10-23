@@ -6,7 +6,7 @@ This site is set up to build with Jekyll via GitHub Actions and deployed automat
 
 For local development:
 ```bash
-sudo apt upgrade && sudo apt install ruby ruby-dev
-gem install bundler jekyll minima --user-install
+sudo snap install ruby --classic
+gem install bundler jekyll
 bundle exec jekyll serve --incremental
 ```
