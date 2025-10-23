@@ -11,9 +11,9 @@ description: >-
   or want to talk about
 baseurl: /homepage
 url: https://oscarsimpson.github.io
+source_link: https://github.com/oscarsimpson/homepage
 github_username:  oscarsimpson
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
