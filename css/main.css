@@ -41,3 +41,27 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+div.under-construction {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+div.under-construction span {
+    width: 90%;
+    background-color: darksalmon;
+}
+div.under-construction span figure {
+    display: flex;
+    flex-shrink: 0;
+    white-space: nowrap;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    margin: 15px;
+}
+
+div.footer-about {
+    margin-top: 10px;
+
+}

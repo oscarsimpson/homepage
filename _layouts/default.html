@@ -8,16 +8,26 @@
         <nav>
             <ul>
                 <li><a href="{{ site.baseurl }}/">Home</a></li>
+                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+                <li><a href="{{ site.baseurl }}/about">About</a></li>
             </ul>
         </nav>
+        {% if page.wip or true%}
+            {% include wip.html %}
+        {% endif %}
         <div class="container">
             {{ content }}
         </div>
         <footer>
-            <ul>
-                <li><a href="mailto:{{ site.email }}">Email</a></li>
-                <li><a href="{{ site.source_link }}">Source (GitHub)</a></li>
-            </ul>
+            <div class="footer-about">
+                {{ site.description }}
+            </div>
+            <div class="footer-contact">
+                <ul>
+                    <li><a href="mailto:{{ site.email }}">Email</a></li>
+                    <li><a href="{{ site.source_link }}">Source (GitHub)</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
