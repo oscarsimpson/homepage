@@ -6,7 +6,7 @@ This site is set up to build with Jekyll via GitHub Actions and deployed automat
 
 For local development:
 ```bash
-sudo snap install ruby --classic
-gem install bundler jekyll
+sudo snap install ruby --classic --channel=3.4/stable
+bundle install
 bundle exec jekyll serve --incremental
 ```
