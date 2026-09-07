@@ -50,14 +50,31 @@ div.under-construction span {
     width: 90%;
     background-color: darksalmon;
 }
+
+/* Debug */
+/* div {
+    border: 1px solid lime;
+}
+span {
+    border: 1px solid red;
+} */
+
 div.under-construction span figure {
     display: flex;
-    flex-shrink: 0;
-    white-space: nowrap;
+    white-space: normal;
     align-items: center;
     font-weight: bold;
     font-size: larger;
-    margin: 15px;
+    margin: 10px;
+    img {
+        display: block;
+    }
+    span:has(img) {
+        width: min-content;
+    }
+    span:has(figcaption) {
+        margin-left: 10px;
+    }
 }
 
 div.footer-about {
