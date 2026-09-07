@@ -8,7 +8,8 @@ title: Oscar's Site
 email: oscarsimpson1999+homepage@gmail.com
 description: >-
   A basic website to post my ramblings and anything fun I find
-  or want to talk about
+  or want to talk about. I am not a designer, but I hope this
+  site gradually improves in aesthetics.
 baseurl: /homepage
 url: https://oscarsimpson.github.io
 source_link: https://github.com/oscarsimpson/homepage
@@ -17,3 +18,11 @@ github_username:  oscarsimpson
 # Build settings
 plugins:
   - jekyll-feed
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:path/
+  recipes:
+    output: true
+    permalink: /cooking/recipes/:path/

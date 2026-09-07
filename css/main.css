@@ -81,3 +81,33 @@ div.footer-about {
     margin-top: 10px;
 
 }
+
+/* I think I prefer the nested syntax. Will convert the above at some point */
+
+.recipe-tag {
+    border-style: outset;
+    background-color: white;
+}
+
+table#recipes {
+    width: 100%;
+    tr:nth-child(odd) {
+        background-color: #FFD;
+    }
+    margin-bottom: 2em;
+    .recipe-idx-name {
+        width: 50%;
+    }
+    .recipe-idx-tags {
+        text-align: right;
+    }
+    td {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+
+.recipe-tags {
+    padding: 10px;
+    background-color: #DDD;
+}

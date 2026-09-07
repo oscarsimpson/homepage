@@ -1,0 +1,8 @@
+
+{% comment %}
+These tags should eventually include a link (client-side JS?) to a filtered list of recipes
+{% endcomment %}
+
+{% for tag in include.recipe_tags %}
+<span class="recipe-tag">{{ tag }}</span>
+{% endfor %}
