@@ -14,6 +14,6 @@ Can use pork belly slices, cut into chunks. Render down fat first. Do not season
 
 Needs more lime 1.5 - 2 maybe. Add lime peel (or zest) to sauce while simmering.
 
-Related:
+## Related
 - [https://www.recipetineats.com/fluffy-coconut-rice/](https://www.recipetineats.com/fluffy-coconut-rice/). Lime peel can be added instead of other leaves
 
